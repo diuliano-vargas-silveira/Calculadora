@@ -6,12 +6,21 @@ A simple calculator web application developed using Vue.js, TypeScript, and Buef
 
 ## Table of Contents
 
+- [Technologies](#technologies)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+
+## Technologies 
+Here are the technologies used in this project.
+
+- Vue3
+- Typescript
+- Bun
+- WSL
 
 ## Features
 
