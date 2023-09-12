@@ -12,8 +12,12 @@ function adicionarOperador(operador: number | string): void {
     state.expressao = state.expressao + String(operador)
 }
 
-function handleSubmit(): void {
+function handleClickSomar(): void {
     state.expressao = eval(state.expressao)
+}
+
+function handleClickLimpar(): void {
+    state.expressao = ""
 }
 
 </script>
@@ -29,8 +33,11 @@ function handleSubmit(): void {
                 {{ numero }}
             </button>
         </div>
-        <button class="submit" @click="handleSubmit">
-            SOMAR
+        <button class="submit" @click="handleClickSomar">
+            Calcular
+        </button>
+        <button class="submit" @click="handleClickLimpar">
+            Limpar
         </button>
     </div>
 </template>

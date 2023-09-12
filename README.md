@@ -1,18 +1,63 @@
-# Vue 3 + TypeScript + Vite
+# Calculator App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple calculator web application developed using Vue.js, TypeScript, and Buefy.
 
-## Recommended IDE Setup
+![Calculadora](image.png)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Table of Contents
 
-## Type Support For `.vue` Imports in TS
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Features
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- Basic arithmetic operations (addition, subtraction, multiplication, division).
+- Clear button to reset the input and result.
+- User-friendly and responsive design.
+- Implemented using Vue.js, TypeScript, and Bun.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following dependencies installed:
+
+- WSL: You can download and install WSL from [wsl website](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+- Bun: You can download and install BunJs from [bun.sh](https://bun.sh/).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/diuliano-vargas-silveira/Calculadora.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd Calculadora
+   ```
+
+3. Install the project dependencies:
+
+   ```
+   bun install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   bun run dev
+   ``` 
+
+2. Open your web browser and visit http://localhost:5173 to view the calculator app.
+
+3. Use the calculator to perform basic arithmetic operations.
