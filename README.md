@@ -61,3 +61,6 @@ Before you begin, ensure you have the following dependencies installed:
 2. Open your web browser and visit http://localhost:5173 to view the calculator app.
 
 3. Use the calculator to perform basic arithmetic operations.
+
+## Contact
+If you have any questions or feedback, please feel free to contact us at diulianovargas@gmail.com.
