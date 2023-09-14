@@ -1,6 +1,6 @@
 # Calculator App
 
-A simple calculator web application developed using Vue.js, TypeScript, and Buefy.
+A simple calculator web application developed using Vue.js, TypeScript, and Bun.
 
 ![Calculadora](image.png)
 
@@ -12,7 +12,7 @@ A simple calculator web application developed using Vue.js, TypeScript, and Buef
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Contact](#contact)
 
 ## Technologies 
 Here are the technologies used in this project.
